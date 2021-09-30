@@ -30,6 +30,6 @@ https://u.davwheat.dev/cCvFMEWk.mp4
 
 ## Links
 
-- [Packagist](https://packagist.org/packages/davwheat/flarum-ext-share)
-- [GitHub](https://github.com/davwheat/flarum-ext-share)
-- [Discuss](https://discuss.flarum.org/d/PUT_DISCUSS_SLUG_HERE)
+- [Packagist](https://packagist.org/packages/davwheat/flarum-ext-ads)
+- [GitHub](https://github.com/davwheat/flarum-ext-ads)
+- [Discuss](https://discuss.flarum.org/d/28506)
