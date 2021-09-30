@@ -32,4 +32,4 @@ https://u.davwheat.dev/cCvFMEWk.mp4
 
 - [Packagist](https://packagist.org/packages/davwheat/flarum-ext-share)
 - [GitHub](https://github.com/davwheat/flarum-ext-share)
-- [Discuss](https://discuss.flarum.org/d/PUT_DISCUSS_SLUG_HERE)
+- [Discuss](https://discuss.flarum.org/d/29074)
