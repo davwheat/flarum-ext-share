@@ -1,6 +1,6 @@
 # Share
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/davwheat/flarum-ext-share.svg)](https://packagist.org/packages/davwheat/flarum-ext-share) [![Total Downloads](https://img.shields.io/packagist/dt/davwheat/flarum-ext-share.svg)](https://packagist.org/packages/davwheat/flarum-ext-share)
+![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/davwheat/flarum-ext-share.svg)](https://packagist.org/packages/davwheat/flarum-ext-share) [![Total Downloads](https://img.shields.io/packagist/dt/davwheat/flarum-ext-share.svg)](https://packagist.org/packages/davwheat/flarum-ext-share) ![](https://flarum-badge-api.davwheat.dev/v1/compat-latest/davwheat/flarum-ext-share)
 
 A [Flarum](http://flarum.org) extension. Let your users share posts via the native Web Share API.
 
