@@ -1,20 +1,16 @@
-import { extend } from 'flarum/common/extend';
-import type ItemList from 'flarum/common/utils/ItemList';
 import app from 'flarum/forum/app';
+import { extend } from 'flarum/common/extend';
 
 import CommentPost from 'flarum/forum/components/CommentPost';
 import Separator from 'flarum/common/components/Separator';
+import PostMeta from 'flarum/forum/components/PostMeta';
+
+import type ItemList from 'flarum/common/utils/ItemList';
 import * as PostControls from 'flarum/forum/utils/PostControls';
-
-import doesSupportWebShare from '../common/helpers/doesSupportWebShare';
-
-import ShareIconButton from '../common/components/ShareIconButton';
-import ShareLinkButton from '../common/components/ShareLinkButton';
-import ShareDropdownButton from '../common/components/ShareDropdownButton';
 
 import Discussion from 'flarum/common/models/Discussion';
 
-import PostMeta from 'flarum/forum/components/PostMeta';
+import { ShareDropdownButton, ShareIconButton, ShareLinkButton, doesSupportWebShare, shareUrl } from '../common';
 
 app.initializers.add('davwheat/flarum-ext-share', () => {
   if (!doesSupportWebShare()) return;
@@ -43,3 +39,5 @@ app.initializers.add('davwheat/flarum-ext-share', () => {
     items.add('davwheat-share-Separator', Separator.component(), 998);
   });
 });
+
+export { ShareDropdownButton, ShareIconButton, ShareLinkButton, doesSupportWebShare, shareUrl };
