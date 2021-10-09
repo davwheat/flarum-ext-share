@@ -15,7 +15,7 @@ export default class ShareDropdownButton extends Component<IShareButtonAttrs> {
       <Button
         aria-label={app.translator.trans('davwheat-share.lib.share_a11y_label')}
         onclick={() => shareUrl(this.attrs.url, this.attrs.discussionTitle)}
-        className="Button"
+        className="Button davwheat-ShareDropdownButton"
         icon="fas fa-share-alt"
       >
         {app.translator.trans('davwheat-share.lib.share_a11y_label')}

@@ -6,13 +6,13 @@ import shareUrl from '../helpers/shareUrl';
 
 import type { IShareButtonAttrs } from './ShareDropdownButton';
 
-export default class ShareDropdownButton extends Component<IShareButtonAttrs> {
+export default class ShareIconButton extends Component<IShareButtonAttrs> {
   view() {
     return (
       <Button
         aria-label={app.translator.trans('davwheat-share.lib.share_a11y_label')}
         onclick={() => shareUrl(this.attrs.url, this.attrs.discussionTitle)}
-        className="Button Button--icon Button--flat"
+        className="Button Button--icon Button--flat davwheat-ShareIconButton"
         icon="fas fa-share-alt"
       />
     );
